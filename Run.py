@@ -3,8 +3,8 @@ import cv2
 from Allcodes import Homework
 
 #read folder images
-img1 = os.path.basename('../Images/lena.jpg')
-img2 = os.path.basename('../Images/spine.jpg')
+img1 = os.path.basename('../lena.jpg')
+img2 = os.path.basename('../spine.jpg')
 
 
 Homework.grayLevel_modification(img1,2)
